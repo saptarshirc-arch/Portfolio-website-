@@ -1,0 +1,434 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Space+Grotesk:wght@300..700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+    <title>Saptarshi Roy Chowdhury — Creative Technologist</title>
+</head>
+<body>
+
+    <!-- NAV -->
+    <nav id="nav">
+        <span class="nav-name">Saptarshi Roy Chowdhury</span>
+
+        <ul class="nav-links">
+            <li><a href="#hero">Hero</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#experience">Experience</a></li>
+            <li><a href="#education">Education</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#lab">Lab</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+
+        <div class="nav-right">
+            <a href="#contact" class="nav-cta">Let's work together</a>
+            <button class="hamburger" id="hamburger" aria-label="Open menu">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+        </div>
+    </nav>
+
+    <!-- MOBILE MENU DRAWER -->
+    <div class="mobile-menu" id="mobileMenu">
+        <button class="mobile-menu-close" id="mobileClose">✕</button>
+        <ul>
+            <li><a href="#hero" class="mobile-link">Hero</a></li>
+            <li><a href="#about" class="mobile-link">About</a></li>
+            <li><a href="#experience" class="mobile-link">Experience</a></li>
+            <li><a href="#education" class="mobile-link">Education</a></li>
+            <li><a href="#projects" class="mobile-link">Projects</a></li>
+            <li><a href="#lab" class="mobile-link">Lab</a></li>
+            <li><a href="#contact" class="mobile-link">Contact</a></li>
+        </ul>
+        <a href="mailto:saptarshi.src@gmail.com" class="mobile-email">saptarshi.src@gmail.com</a>
+    </div>
+
+    <!-- OVERLAY behind mobile menu -->
+    <div class="mobile-overlay" id="mobileOverlay"></div>
+
+    <!-- HERO -->
+    <section id="hero">
+        <div class="hero-content">
+            <h1>Saptarshi Roy Chowdhury</h1>
+            <p class="hero-subtitle">Creative Technologist</p>
+            <div class="hero-tags">
+                <span>Creative Direction</span>
+                <span>Generative Visuals</span>
+                <span>AI</span>
+            </div>
+            <p class="hero-tagline">Working at the intersection of art and technology</p>
+            <a href="#projects" class="hero-btn">Watch my work</a>
+        </div>
+        <div class="building-card">
+            <span class="building-icon">⚡</span>
+            <p>Building this without AI — learning HTML, CSS & JS on the go. More coming soon.</p>
+        </div>
+    </section>
+
+    <!-- ABOUT -->
+    <section id="about">
+        <h2 class="section-heading">About Me</h2>
+        <div class="about-content">
+            <div class="about-image">
+                <img src="#" alt="Saptarshi Roy Chowdhury">
+            </div>
+            <div class="about-text">
+                <p>Hi, I'm a Senior Creative and Art Director with over eight years of experience in the advertising and visual production industry.</p>
+                <p>With a background in Film Studies, my work bridges the gap between traditional storytelling and creative technology, utilizing everything from advanced music production to generative code.</p>
+                <ul class="skills">
+                    <li>Art Direction & VFX</li>
+                    <li>Motion Graphics & 3D Animation</li>
+                    <li>Creative Coding (Three.js)</li>
+                    <li>Sound Design (Ableton)</li>
+                    <li>Generative AI Workflows</li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <!-- EXPERIENCE -->
+    <section id="experience">
+        <h2 class="section-heading">Experience</h2>
+        <div class="timeline">
+
+            <div class="timeline-entry">
+                <div class="timeline-dot"><i class="fas fa-briefcase"></i></div>
+                <div class="timeline-content">
+                    <h3>Senior Motion Graphics Designer
+                        <span class="reality-tag">👀 Reality Check</span>
+                    </h3>
+                    <div class="meta">
+                        <span class="company">Dentsu</span>
+                        <span class="dates">2023 – Present</span>
+                    </div>
+                    <p>Working on ad films, AI and business development campaigns, pitch decks and creative strategy.</p>
+                    <div class="reality-card">
+                        <p class="reality-title">The Unofficial Title:</p>
+                        <p class="reality-role">"Creative Swiss Army Knife"</p>
+                        <ul class="reality-points">
+                            <li>Consulted on AI workflows before the company knew they needed an AI workflow</li>
+                            <li>Became the unofficial explainer of what a prompt engineer is to three different departments</li>
+                            <li>Shipped processes that quietly became company standard — credited to the meeting where someone else presented them</li>
+                            <li>Was the creative direction on campaigns that didn't officially have a creative director</li>
+                        </ul>
+                        <p class="reality-footer">Still waiting for the org chart to catch up.</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="timeline-entry">
+                <div class="timeline-dot"><i class="fas fa-briefcase"></i></div>
+                <div class="timeline-content">
+                    <h3>VFX Artist
+                        <span class="reality-tag">👀 Reality Check</span>
+                    </h3>
+                    <div class="meta">
+                        <span class="company">In10media Network / Juggernaut</span>
+                        <span class="dates">2022 – 2023</span>
+                    </div>
+                    <p>VFX work across broadcast and digital content for India's leading OTT and publishing network.</p>
+                    <div class="reality-card">
+                        <p class="reality-title">The Unofficial Title:</p>
+                        <p class="reality-role">"Head of Doing Things Before They Had a Name"</p>
+                        <ul class="reality-points">
+                            <li>Directed motion language for a show rebrand that didn't officially have a motion director</li>
+                            <li>Made editorial decisions on cuts that the editor then implemented — uncredited</li>
+                            <li>Was the person called when something just didn't feel right — fixed it every time</li>
+                            <li>Introduced Cavalry to the pipeline. Nobody knew what it was. Everyone used it by month two.</li>
+                        </ul>
+                        <p class="reality-footer">The work existed. The title didn't.</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="timeline-entry">
+                <div class="timeline-dot"><i class="fas fa-briefcase"></i></div>
+                <div class="timeline-content">
+                    <h3>VFX Artist
+                        <span class="reality-tag">👀 Reality Check</span>
+                    </h3>
+                    <div class="meta">
+                        <span class="company">Famous Studios</span>
+                        <span class="dates">2022</span>
+                    </div>
+                    <p>Compositing and VFX across film and commercial productions at one of India's oldest studios.</p>
+                    <div class="reality-card">
+                        <p class="reality-title">The Unofficial Title:</p>
+                        <p class="reality-role">"The One Who Also Knew Why It Wasn't Working"</p>
+                        <ul class="reality-points">
+                            <li>Diagnosed a compositing pipeline issue that had been slowing production for weeks</li>
+                            <li>Fixed it in a day — the fix was presented in a review I wasn't invited to</li>
+                            <li>Provided creative feedback on sequences beyond my VFX remit that made the final cut</li>
+                        </ul>
+                        <p class="reality-footer">Short stint. Long lessons.</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="timeline-entry">
+                <div class="timeline-dot"><i class="fas fa-briefcase"></i></div>
+                <div class="timeline-content">
+                    <h3>Senior Executive – Design
+                        <span class="reality-tag">👀 Reality Check</span>
+                    </h3>
+                    <div class="meta">
+                        <span class="company">Film Companion</span>
+                        <span class="dates">2021 – 2022</span>
+                    </div>
+                    <p>Design and motion work for India's leading film criticism and culture platform.</p>
+                    <div class="reality-card">
+                        <p class="reality-title">The Unofficial Title:</p>
+                        <p class="reality-role">"Unofficial Creative Director, Officially Just the Designer"</p>
+                        <ul class="reality-points">
+                            <li>Designed motion identity for video content that had no motion identity brief</li>
+                            <li>Became de facto creative lead on video shoots when the director was absent</li>
+                            <li>Writers came to me when they wanted something to feel cinematic — not in the job description</li>
+                            <li>Built a sound design sensibility into the channel that persisted after I left</li>
+                        </ul>
+                        <p class="reality-footer">Loved the work. Wanted the acknowledgement to match.</p>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- EDUCATION -->
+    <section id="education">
+        <h2 class="section-heading">Education</h2>
+        <div class="timeline">
+
+            <div class="timeline-entry">
+                <div class="timeline-dot"><i class="fas fa-graduation-cap"></i></div>
+                <div class="timeline-content">
+                    <h3>M.A in Film Studies</h3>
+                    <div class="meta">
+                        <span class="dates">2016 – 2018</span>
+                    </div>
+                    <div class="edu-card">
+                        <ul class="edu-points">
+                            <li>Developed a critical eye for narrative structure and visual language</li>
+                            <li>Deep exposure to world cinema — French New Wave, Iranian cinema, Indian parallel cinema</li>
+                            <li>Understanding of how culture shapes storytelling and perspective</li>
+                            <li>Thesis on the intersection of sound design and emotional cognition in film</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+            <div class="timeline-entry">
+                <div class="timeline-dot"><i class="fas fa-graduation-cap"></i></div>
+                <div class="timeline-content">
+                    <h3>B.Sc in Multimedia and Animation</h3>
+                    <div class="meta">
+                        <span class="dates">2011 – 2015</span>
+                    </div>
+                    <div class="edu-card">
+                        <ul class="edu-points">
+                            <li>Foundations of 2D and 3D animation principles</li>
+                            <li>Compositing, colour grading and visual effects pipeline</li>
+                            <li>First exposure to generative and procedural thinking in design</li>
+                            <li>Built the technical foundation that everything since has been built on</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- PROJECTS -->
+    <section id="projects">
+        <h2 class="section-heading">Projects</h2>
+
+        <div class="projects-client">
+            <p class="subsection-label">Client Work</p>
+            <div class="client-grid">
+
+                <a class="client-card" href="#" target="_blank">
+                    <img src="logos/American_Express_logo_(2018).svg.webp" alt="American Express">
+                    <span>American Express</span>
+                </a>
+
+                <a class="client-card" href="#" target="_blank">
+                    <video autoplay muted loop playsinline disablepictureinpicture controlslist="nodownload nofullscreen noremoteplayback">
+                        <source src="videos/Cherry.mp4" type="video/mp4">
+                    </video>
+                    <div class="client-card-overlay">
+                        <img src="logos/Chery_logo.svg" alt="Chery">
+                        <span>Chery</span>
+                    </div>
+                </a>
+
+                <a class="client-card" href="#" target="_blank">
+                    <img src="logos/Kering-logo.svg" alt="Kering">
+                    <span>Kering</span>
+                </a>
+
+                <a class="client-card" href="#" target="_blank">
+                    <img src="logos/Magnum_logo.svg" alt="Magnum">
+                    <span>Magnum</span>
+                </a>
+
+                <a class="client-card" href="https://drive.google.com/drive/folders/1wMvVUZzvKY7uRd_dKxkH7eXirl-_QtUv?usp=drive_link" target="_blank">
+                    <video autoplay muted loop playsinline disablepictureinpicture controlslist="nodownload nofullscreen noremoteplayback">
+                        <source src="videos/halfords.mp4" type="video/mp4">
+                    </video>
+                    <div class="client-card-overlay">
+                        <img src="logos/Halfords_logo.svg" alt="Halfords">
+                        <span>Halfords</span>
+                    </div>
+                </a>
+
+                <a class="client-card" href="#" target="_blank">
+                    <img src="logos/Merkle_logo.svg" alt="Merkle">
+                    <span>Merkle</span>
+                </a>
+
+                <a class="client-card" href="#" target="_blank">
+                    <video autoplay muted loop playsinline disablepictureinpicture controlslist="nodownload nofullscreen noremoteplayback">
+                        <source src="videos/Mccain.mp4" type="video/mp4">
+                    </video>
+                    <div class="client-card-overlay">
+                        <img src="logos/McCain-Logo.svg.webp" alt="McCain">
+                        <span>McCain</span>
+                    </div>
+                </a>
+
+                <a class="client-card" href="https://drive.google.com/drive/folders/1UsxQm5LyyzXYLe_yscEuVkEyjHuNoxTo?usp=drive_link" target="_blank">
+                    <video autoplay muted loop playsinline disablepictureinpicture controlslist="nodownload nofullscreen noremoteplayback">
+                        <source src="videos/Sony.mp4" type="video/mp4">
+                    </video>
+                    <div class="client-card-overlay">
+                        <img src="logos/Sony_logo_(white).svg" alt="Sony">
+                        <span>Sony</span>
+                    </div>
+                </a>
+
+                <a class="client-card" href="#" target="_blank">
+                    <video autoplay muted loop playsinline disablepictureinpicture controlslist="nodownload nofullscreen noremoteplayback">
+                        <source src="videos/Nbn.mp4" type="video/mp4">
+                    </video>
+                    <div class="client-card-overlay">
+                        <img src="logos/NBN_logo.svg" alt="NBN">
+                        <span>NBN</span>
+                    </div>
+                </a>
+
+                <a class="client-card" href="#" target="_blank">
+                    <img src="logos/UNIQLO_logo.svg" alt="Uniqlo">
+                    <span>Uniqlo</span>
+                </a>
+
+                <div class="client-card client-placeholder"><span>Coming Soon</span></div>
+                <div class="client-card client-placeholder"><span>Coming Soon</span></div>
+
+            </div>
+        </div>
+
+        <div class="projects-other">
+            <div class="other-card">
+                <i class="fas fa-pen-nib"></i>
+                <h3>Design Work</h3>
+                <p>Brand identity, motion graphics and campaign design across eight years of client work.</p>
+                <a href="https://drive.google.com/drive/folders/1kLZ6Ut48sd6VLpNXEjCPoamM3d-swWyd?usp=drive_link" target="_blank" class="other-link">View Collection →</a>
+            </div>
+
+            <div class="other-card" id="ai-card">
+                <i class="fas fa-microchip"></i>
+                <h3>AI Work</h3>
+                <p>Explorations, production workflows and certified practice in generative AI.</p>
+                <button class="other-link ai-toggle">View Categories ↓</button>
+                <div class="ai-submenu">
+                    <a href="#" target="_blank"><i class="fas fa-flask"></i>Explorations & Research</a>
+                    <a href="#" target="_blank"><i class="fas fa-film"></i>Production</a>
+                    <a href="#" target="_blank"><i class="fas fa-certificate"></i>Certifications</a>
+                </div>
+            </div>
+        </div>
+
+    </section>
+
+    <!-- LAB -->
+    <section id="lab">
+        <h2 class="section-heading">Creative Lab</h2>
+        <p class="lab-intro">Where code meets visual intuition — generative systems, real-time 3D, and procedural motion.</p>
+
+        <div class="lab-grid">
+
+            <div class="lab-card">
+                <div class="lab-preview">
+                    <iframe src="https://editor.p5js.org/saptarshi.src/full/hOXrqnS7I" allowfullscreen></iframe>
+                </div>
+                <div class="lab-info">
+                    <span class="lab-tag">p5.js</span>
+                    <h3>Logarithmic Generative Art</h3>
+                    <p>Spiral systems, particle decay and mathematical growth patterns rendered in real time.</p>
+                </div>
+            </div>
+
+            <div class="lab-card">
+                <div class="lab-preview">
+                    <iframe src="https://editor.p5js.org/saptarshi.src/full/a_HUReD6N" allowfullscreen></iframe>
+                </div>
+                <div class="lab-info">
+                    <span class="lab-tag">p5.js</span>
+                    <h3>Generative Garden</h3>
+                    <p>Procedural grass, noise-driven cloud movement and HSB colour systems creating organic scenes.</p>
+                </div>
+            </div>
+
+            <div class="lab-card lab-coming-soon">
+                <div class="lab-preview lab-preview-placeholder">
+                    <i class="fas fa-cube"></i>
+                </div>
+                <div class="lab-info">
+                    <span class="lab-tag">Three.js</span>
+                    <h3>3D Explorations</h3>
+                    <p>Real-time geometry, shader work and interactive 3D environments. Currently building.</p>
+                    <a href="#contact" class="lab-link">Get in touch to see early work →</a>
+                </div>
+            </div>
+
+            <div class="lab-card lab-coming-soon">
+                <div class="lab-preview lab-preview-placeholder">
+                    <i class="fas fa-film"></i>
+                </div>
+                <div class="lab-info">
+                    <span class="lab-tag">Cavalry</span>
+                    <h3>Procedural Motion</h3>
+                    <p>Data-driven animation, generative motion graphics and procedural design systems.</p>
+                    <a href="#contact" class="lab-link">Get in touch to see early work →</a>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- CONTACT -->
+    <section id="contact">
+        <h2 class="contact-heading">Let's Talk</h2>
+        <p class="contact-intro">Open to senior creative, art direction and creative technology roles. If you're building something interesting, I want to hear about it.</p>
+        <a href="mailto:saptarshi.src@gmail.com" class="contact-email">saptarshi.src@gmail.com</a>
+        <div class="contact-links">
+            <a href="https://www.linkedin.com/in/saptarshi-roy-chowdhury-59176071/" target="_blank" class="contact-icon">
+                <i class="fab fa-linkedin-in"></i>
+            </a>
+            <a href="#" target="_blank" class="contact-icon">
+                <i class="fab fa-github"></i>
+            </a>
+        </div>
+        <p class="contact-footer">Built by hand with HTML, CSS and JavaScript. No frameworks. No templates.</p>
+    </section>
+
+    <script src="script.js"></script>
+</body>
+</html>
